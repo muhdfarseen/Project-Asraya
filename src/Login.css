@@ -1,0 +1,96 @@
+.LoginBody{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Background_Logo{
+    position: fixed;
+    left: -100px;
+    bottom: -100px;
+    z-index: -1;
+}
+
+.LoginForm{
+    width: 400px;
+    padding: 30px;
+    border-radius: 27px;
+    background: #ffffff68;
+    border-width: 1px;
+    border-style: solid;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      rgba(0,0,0,0), #ED1B24,
+      rgba(0,0,0,0)
+    ) 1 100%;
+    box-shadow: 0px 20px 60px 0px rgba(0, 0, 0, 0.10);
+}
+
+.button{
+    background-color:#ED1B24; 
+}
+
+.button:hover{
+    background-color:#b3161d; 
+}
+
+.Logotext{
+    text-align: center;
+}
+
+.Logo{
+    width: 120px;
+}
+
+.L1{
+    color: #000000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 43.324px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.L2{
+    color: #000000;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media screen and (max-width: 768px) {
+    .Background_Logo{
+        left: -70px;
+        bottom: -60px;
+    }
+    
+    .LoginForm{
+        width: 266px;
+        padding: 18px;
+        border-radius: 14px;
+    }
+
+    .Logo{
+        width: 63px;
+    }
+    
+    .L1{
+        font-size: 22px;
+    }
+    
+    .L2{
+        font-size: 13px;
+    }
+
+    .Background_Logo{
+        width: 500px;
+        left: -200px;
+        bottom: -40px;
+    }
+
+}

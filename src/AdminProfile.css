@@ -1,0 +1,106 @@
+
+.NavLogo{
+    max-width: 29px;
+    margin-right: 10px;
+}
+
+.logontxt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    background-color:#ED1B24; 
+   
+}
+
+.button:hover{
+    background-color:#b3161d; 
+}
+
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-bottom: 1px solid #ED1B24;
+}
+
+.input-group-text{
+    width: 104px;
+}
+
+.sectionone{
+    width: 70%;
+    
+}
+.year{
+    width: 80px;
+    margin-left: 20px;
+}
+
+.yearhead{
+    display: flex;
+    align-items: center;
+    
+}
+
+.btn-oy{
+    background-color: #D3D4D5;;
+}
+
+.btn-oy:hover{
+    background-color: #a6a6a6;;
+}
+
+.hfive{
+    margin: 0px;
+}
+
+.cardtablehead{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectiontwo{
+    width: 30%;
+}
+
+.sectioncontainer{
+    display: flex;
+    padding: 30px;
+}
+
+.tablehyt{
+    max-height: 80vh;
+    overflow-y: scroll;
+}
+
+.cenlgo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.componentpdf{
+    width: 100%;
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .sectionone{
+        width: 0%;
+        visibility: hidden;
+        
+    }
+    
+    .sectiontwo{
+        width: 100%;
+    }
+    
+
+
+}
